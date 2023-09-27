@@ -22,9 +22,6 @@ int main()
         (pow(oppos_rib_one, 2) + pow(oppos_rib_two, 2) + 2 * oppos_rib_one * oppos_rib_two * cos(angel_one))
     )//end sqrt
         / 2;
-
-
-
     double height = oppos_rib_two * sin(angel_two);
     std::cout << "Hello dear teacher!\n";
     std::cout << "Variant 14 of book \"Блок 2. Cборник задач.chp\":" << std::endl;
@@ -33,7 +30,6 @@ int main()
     std::cout << "3) Длина биссектрисы из угла A: " << bissector_lenght_from << std::endl;
     std::cout << "4) Длина медины из вершины A: " << median_ << std::endl;
     std::cout << "5) Длина высоты из вершины A:" << height << std::endl;
-
     std::cout << "А это значение медианы из вершины A набранное по формуле приведенной в zadachnike" << std::endl << "4)" <<
         sqrt(
             (pow(oppos_rib_one, 2) + pow(oppos_rib_two, 2) + 2 * oppos_rib_one * oppos_rib_two * cos(angel_one))
