@@ -36,8 +36,7 @@ int main(){
     BissectorLenghtFrom = 2 * OpposRibOne * OpposRibTwo * cos(AngelOne / 
                             2) / (OpposRibOne + OpposRibTwo);
     Median_lenght = sqrt((pow(OpposRibOne, 2) + pow(OpposRibTwo, 2) + 2 * OpposRibOne 
-              * OpposRibTwo * cos(AngelOne)))
-        / 2;
+              * OpposRibTwo * cos(AngelOne))) / 2;
     HeightLenght = OpposRibTwo * sin(AngelTwo);
 
     cout << "Hello dear teacher!\n"
