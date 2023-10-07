@@ -22,10 +22,10 @@ int main(){
     cout<<"Длина ребра (см): ";
     cin>>RibLenght;
     //input AngelOne 16
-    cout<<"Величина угла 1(•): ";
+    cout<<"Величина угла 1(градусы): ";
     cin>>AngelOne;
     //input AngelTwo 44
-    cout<<"Величина угла 2(•): ";
+    cout<<"Величина угла 2(градусы): ";
     cin>>AngelTwo;
     
     RibLenght /= 100;
